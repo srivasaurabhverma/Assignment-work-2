@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #a3d5d3;
+  }
+
+.navbar{
+    width: 100vw;
+    height: 11vh;
+    background-color: rgb(32,85,131);
+}
+
+#title{
+    text-align: center;
+    font-family: 'Piedra', cursive;
+    font-weight: 900;
+    font-size: 3rem;
+    padding: 10px;
+}
+
+#first{
+    background-color: white;
+}
