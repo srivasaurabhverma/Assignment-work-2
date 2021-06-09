@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Electric</title>
     <link rel="stylesheet" href="index.css" />
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- CSS only -->
   </head>
   <body>
     <div class="navbar">
@@ -14,53 +15,105 @@
         <h1 id="title">Freezer Temperature Monitoring System</h1>
       </div>
     </div>
-
-    <div class="main">
-      <div id="first">
-        <figure class="chart__figure">
+    <div class="content">
+      <div class="main">
+        <div class="charts donuts" id="first">
+          <h1 class="title">Temprature</h1>
+          <div class="line"></div>
           <canvas
-            class="chart__canvas"
-            id="chartCanvas"
-            aria-label="Example doughnut chart showing data as a percentage"
+            id="dougnt-1"
+            aria-label="chart"
             role="img"
+            class="donut"
           ></canvas>
-        </figure>
+          <h1 class="val">70</h1>
+        </div>
+        <div class="charts donuts" id="second">
+          <h1 class="title">Current</h1>
+          <div class="line"></div>
+          <canvas
+            id="dougnt-2"
+            aria-label="chart"
+            role="img"
+            class="donut"
+          ></canvas>
+          <h1 class="val">60</h1>
+        </div>
+        <div class="charts" id="third">
+          <h1 class="title">Current Consumption</h1>
+          <div class="line"></div>
+          <canvas
+            id="line-chart1"
+            aria-label="chart"
+            role="img"
+            height="274px"
+          ></canvas>
+        </div>
+        <div class="charts" id="forth">
+          <h1 class="title">Alert</h1>
+          <div class="line"></div>
+          <table>
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Events</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-title="Name">22 Jan 2019</td>
+
+                <td data-title="designation">Software Engineer</td>
+              </tr>
+              <tr>
+                <td data-title="Name">22 Jan 2019</td>
+
+                <td data-title="designation">Quality Analyst</td>
+              </tr>
+              <tr>
+                <td data-title="Name">22 Jan 2019</td>
+
+                <td data-title="designation">Software Engineer</td>
+              </tr>
+              <tr>
+                <td data-title="Name">22 Jan 2019</td>
+
+                <td data-title="designation">Quality Analyst</td>
+              </tr>
+              <tr>
+                <td data-title="Name">22 Jan 2019</td>
+
+                <td data-title="designation">Human Resources</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
 
-      <div id="second">
-        <figure class="chart__figure">
+      <div class="main-2">
+        <div class="charts first" id="">
+          <h1 class="title">Temprature Trend</h1>
+          <div class="line"></div>
           <canvas
-            class="chart__canvas"
-            id="chartCanvas"
-            aria-label="Example doughnut chart showing data as a percentage"
+            id="line-2-1st"
+            aria-label="chart"
             role="img"
+             
           ></canvas>
-        </figure>
-      </div>
-
-      <div id="thrid">
-        <figure class="chart__figure">
+        </div>
+        <div class="first charts" id="2ndline-2nd">
+          <h1 class="title">Avg.Temprature vs Current</h1>
+          <div class="line"></div>
           <canvas
-            class="chart__canvas"
-            id="chartCanvas"
-            aria-label="Example doughnut chart showing data as a percentage"
+            id="bar"
+            aria-label="chart"
             role="img"
+             
           ></canvas>
-        </figure>
-      </div>
-
-      <div id="forth">
-        <figure class="chart__figure">
-          <canvas
-            class="chart__canvas"
-            id="chartCanvas"
-            aria-label="Example doughnut chart showing data as a percentage"
-            role="img"
-          ></canvas>
-        </figure>
+        </div>
       </div>
     </div>
   </body>
-
+  <script src="chart.js"></script>
   <script src="costum.js"></script>
 </html>
