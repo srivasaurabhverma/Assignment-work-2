@@ -1,32 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Electric</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2/dist/chart.min.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="navbar">
-        <div class="title"><h1 id="title">Freezer Temperature Monitoring System</h1></div>
+      <div class="title">
+        <h1 id="title">Freezer Temperature Monitoring System</h1>
+      </div>
     </div>
 
     <div class="main">
-        <div class="charts" id="first">
-            <canvas id="myChart" width="400" height="400"></canvas>
-        </div>
-        <div class="charts" id="second">
-        </div>
-        <div class="charts" id="third">
-        </div>
-        <div class="charts" id="forth">
-        </div>
-        <div class="charts" id="fifth">
-        </div>
+      <div id="first">
+        <figure class="chart__figure">
+          <canvas
+            class="chart__canvas"
+            id="chartCanvas"
+            aria-label="Example doughnut chart showing data as a percentage"
+            role="img"
+          ></canvas>
+        </figure>
+      </div>
+
+      <div id="second">
+        <figure class="chart__figure">
+          <canvas
+            class="chart__canvas"
+            id="chartCanvas"
+            aria-label="Example doughnut chart showing data as a percentage"
+            role="img"
+          ></canvas>
+        </figure>
+      </div>
+
+      <div id="thrid">
+        <figure class="chart__figure">
+          <canvas
+            class="chart__canvas"
+            id="chartCanvas"
+            aria-label="Example doughnut chart showing data as a percentage"
+            role="img"
+          ></canvas>
+        </figure>
+      </div>
+
+      <div id="forth">
+        <figure class="chart__figure">
+          <canvas
+            class="chart__canvas"
+            id="chartCanvas"
+            aria-label="Example doughnut chart showing data as a percentage"
+            role="img"
+          ></canvas>
+        </figure>
+      </div>
     </div>
-</body>
- 
-<script src="costum.js"></script>
+  </body>
+
+  <script src="costum.js"></script>
 </html>
