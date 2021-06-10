@@ -40,8 +40,8 @@ body {
 
 .main-2 {
   /* margin:3vh 10px; */
-  /* margin: 3px 15px; */
-  margin-left: 4vw;
+  margin: 3px 95px;
+   
   width: fit-content;
   display: flex;
   justify-content:space-evenly;
@@ -142,7 +142,7 @@ td {
 }
 
 .first {
-  width:652px;
+  width:750px;
   border: 3px solid rgb(141, 169, 208);
   border-radius: 25px;
   /* margin-left: 30px; */
