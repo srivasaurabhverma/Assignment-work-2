@@ -8,6 +8,7 @@
 body {
   background-color: #c7d8e6;
   overflow-x: hidden;
+  width: 100vw;
 }
 
 .navbar {
@@ -39,11 +40,11 @@ body {
 
 .main-2 {
   /* margin:3vh 10px; */
-  margin: 3px 15px;
+  /* margin: 3px 15px; */
+  margin-left: 13vw;
   width: fit-content;
   display: flex;
-
-  /* justify-content:space-evenly; */
+  justify-content:space-evenly;
 }
 
 .donut {
@@ -141,9 +142,10 @@ td {
 }
 
 .first {
-  width: 800px;
+  width:652px;
   border: 3px solid rgb(141, 169, 208);
   border-radius: 25px;
+  /* margin-left: 30px; */
 }
 
 #bar {
@@ -241,6 +243,10 @@ td {
     width: 103vw;
   }
 
+  .donuts{
+    margin-left: 14px;
+  }
+
    
 }
 
@@ -258,7 +264,7 @@ td {
   .navbar {
     position: relative;
     /* left: 3px; */
-    width: 105vw;
+    width: 105;
   }
 
   #line-2-1st {
@@ -284,19 +290,12 @@ td {
   .first {
     height: 300px;
   }
-  body {
-    width: 96vw;
-    overflow-x: hidden;
-  }
+   
 }
-@media only screen and (max-width: 436px) {
-  .donuts {
-    margin-left: 14px;
-  }
-  #forth,
-  #third {
-    margin-left: 14px;
-  }
+@media only screen and (max-width: 436px){
+#forth,#third{
+  margin-left: 14px;
+}
 }
 @media only screen and (max-width: 350px) {
   #line-2-1st {
