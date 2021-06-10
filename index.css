@@ -241,13 +241,7 @@ td {
     width: 103vw;
   }
 
-  .donuts{
-    margin-left: 14px;
-  }
-
-  #forth,#third{
-    margin-left: 14px;
-  }
+   
 }
 
 @media only screen and (max-width: 446px) {
@@ -263,7 +257,8 @@ td {
   }
   .navbar {
     position: relative;
-    left: 3px;
+    /* left: 3px; */
+    width: 105vw;
   }
 
   #line-2-1st {
@@ -294,7 +289,15 @@ td {
     overflow-x: hidden;
   }
 }
-
+@media only screen and (max-width: 436px) {
+  .donuts {
+    margin-left: 14px;
+  }
+  #forth,
+  #third {
+    margin-left: 14px;
+  }
+}
 @media only screen and (max-width: 350px) {
   #line-2-1st {
     top: 20%;
