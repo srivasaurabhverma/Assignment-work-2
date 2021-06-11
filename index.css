@@ -50,11 +50,11 @@ body {
 
 .donut {
   position: relative;
-  height: 150px;
-  /* height:max-content; */
-  top: 5%;
+  height: 231px !important;
+  /* height: max-content; */
+  top: -3%;
   margin: auto;
-  padding: 34px;
+  padding: 50px;
 }
 
 .donuts {
@@ -83,29 +83,29 @@ body {
   text-align: center;
   color: rgb(32, 16, 24);
   height: fit-content;
-  top: -9px;
+  top: -41px;
   position: relative;
 }
 
 #third {
   border: 3px solid rgb(141, 169, 208);
   border-radius: 15px;
-  height: 10%;
+  height: 274px;
 }
 
 #line-chart1 {
   position: relative;
-  top: 8%;
-  padding: 30px;
-  width: 600px;
-  height: 263px !important;
-  height: 30%;
+    top: -3%;
+    padding: 30px;
+    width: 600px;
+    height: 251px !important;
+    
 }
 
 #forth {
   position: relative;
   width: 20%;
-  height: 309px;
+  height: 276px;
 
   overflow-y: scroll;
   overflow-x: hidden;
@@ -144,10 +144,11 @@ td {
 }
 
 .first {
-  width:750px;
+  width: 697px;
   border: 3px solid rgb(141, 169, 208);
   border-radius: 25px;
   /* margin-left: 30px; */
+  height: -webkit-fill-available;
 }
 
 #bar {
