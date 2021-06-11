@@ -154,11 +154,11 @@ td {
 
 #bar {
   position: relative;
-  top: 6%;
-  padding: 22px;
-  margin-left: 10px;
-  height: 255px !important;
-  width: 686px !important;
+    top: 4%;
+    padding: 12px;
+    margin: auto;
+    height: 255px !important;
+    width: 686px !important;
 }
 
 @media only screen and (max-width: 1300px) {
