@@ -14,7 +14,7 @@ new Chart(document.getElementById("dougnt-1"), {
     ],
   },
   options: {
-    responsive: false,
+    // responsive: false,
     plugins: {
       legend: {
         display: false,
@@ -43,7 +43,7 @@ new Chart(document.getElementById("dougnt-2"), {
     ],
   },
   options: {
-    responsive: false,
+    // responsive: false,
     plugins: {
       legend: {
         display: false,
