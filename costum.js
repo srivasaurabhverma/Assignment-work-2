@@ -70,7 +70,7 @@ new Chart(document.getElementById("line-chart1"), {
     ],
   },
   options: {
-    // responsive: false,
+    responsive: false,
     title: {
       display: true,
       text: "World population per region (in millions)",
@@ -118,7 +118,7 @@ new Chart(document.getElementById("line-2-1st"), {
     ],
   },
   options: {
-    // responsive: false,
+    responsive: false,
     title: {
       display: true,
       text: "World population per region (in millions)",
@@ -175,6 +175,6 @@ new Chart(document.getElementById("bar"), {
       text: "Population growth (millions)",
     },
 
-    // responsive: false,
+    responsive: false,
   },
 });

@@ -52,16 +52,16 @@ body {
   position: relative;
   height: 150px;
   /* height:max-content; */
-  top: 7%;
+  top: 5%;
   margin: auto;
-  padding: 30px;
+  padding: 34px;
 }
 
 .donuts {
   width: 20%;
   border: 3px solid rgb(141, 169, 208);
   border-radius: 15px;
-  height: 8%;
+  height: 310px;
 }
 
 .title {
@@ -83,6 +83,8 @@ body {
   text-align: center;
   color: rgb(32, 16, 24);
   height: fit-content;
+  top: -9px;
+  position: relative;
 }
 
 #third {
@@ -96,14 +98,14 @@ body {
   top: 8%;
   padding: 30px;
   width: 600px;
-  height: 275px;
+  height: 263px !important;
   height: 30%;
 }
 
 #forth {
   position: relative;
   width: 20%;
-  height: 320px;
+  height: 309px;
 
   overflow-y: scroll;
   overflow-x: hidden;
@@ -134,12 +136,11 @@ td {
 
 #line-2-1st {
   /* position: relative; */
-
   top: 6%;
-  padding: 30px;
+  padding: 22px;
   margin-left: 10px;
-  height: 275px;
-  width: 700px;
+  height: 275px !important;
+  width: 700px !important;
 }
 
 .first {
@@ -152,9 +153,10 @@ td {
 #bar {
   position: relative;
   top: 6%;
-  padding: 30px;
+  padding: 22px;
   margin-left: 10px;
-  width: 700px;
+  height: 275px !important;
+  width: 700px !important;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -239,26 +241,79 @@ td {
     width: 100%;
   }
 }
+
+@media only screen and (max-width: 705px) {
+  #line-2-1st {
+    /* position: relative; */
+    padding: 33px;
+    /* margin-left: 10px; */
+    height: 283px !important;
+    width: 93% !important;
+  }
+  
+   
+  
+  #bar {
+    padding: 33px;
+    /* margin-left: 10px; */
+    height: 283px !important;
+    width: 93% !important;
+  }
+  
+}
 @media only screen and (max-width: 547px) {
   .navbar {
     width: 103vw;
   }
 
   .donuts{
-    margin-left: 14px;
+    margin-left: 8px;
   }
 
    
 }
+
+@media only screen and (max-width: 573px) {
+  #line-chart1 {
+     
+    top: 8%;
+    padding: 17px;
+    width: 93% !important;
+    height: 27% !important;
+    margin: auto;
+    
+  }
+
+  #line-2-1st {
+    position: relative;
+    top: 3%;
+    padding: 17px;
+    /* margin-left: 10px; */
+    margin: auto;
+    height: 80% !important;
+    width: 93% !important;
+  }
+  
+   
+  
+  #bar {
+    padding: 16px;
+    /* margin-left: 10px; */
+    margin: auto;
+    height: 80% !important;
+    width: 93% !important;
+  }
+
+   
+}
+
 
 @media only screen and (max-width: 446px) {
   #title {
     font-size: 1.5rem;
     width: 100%;
   }
-  #third {
-    height: 300px;
-  }
+   
   .title {
     font-size: larger;
   }
@@ -270,19 +325,15 @@ td {
 
   #line-2-1st {
     position: relative;
-    top: 16%;
+    top: 8%;
     padding: 8px;
   }
 
   #bar {
-    top: 16%;
+    top: 8%;
     padding: 8px;
   }
-  #line-chart1 {
-    position: relative;
-    top: 16%;
-    padding: 8px;
-  }
+  
 
   tr {
     font-size: 17px;
@@ -295,10 +346,10 @@ td {
 }
 @media only screen and (max-width: 436px){
 #forth,#third{
-  margin-left: 14px;
+  margin-left: 6px;
 }
 }
-@media only screen and (max-width: 350px) {
+/* @media only screen and (max-width: 350px) {
   #line-2-1st {
     top: 20%;
     margin-left: 2px;
@@ -312,4 +363,4 @@ td {
     top: 20%;
     margin-left: 2px;
   }
-}
+} */
